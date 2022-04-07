@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="text.css">
+  
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <a class="navbar-brand" href="lab4.html">My Blog</a>
+  <button class="navbar-toggler" type="button" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" >
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="lab4.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="404.html">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="404.html">Its A Link</a>
+          <a class="dropdown-item" href="404.html">Its A Link</a>
+          <a class="dropdown-item" href="404.html">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="404.html" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      
+    </form>
+  </div>
+</nav>
+ 
+  <div class="container ">
+    <div class="jumbotron jumbotron-image text-white" class= "mb-12" style="background-image: url(https://avatars.mds.yandex.net/get-images-cbir/1630363/3TTo4IXq5sWeA1BlGsG95A2792/ocr);">
+      <h2 class="mb-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </h2>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida, augue id dignissim iaculis, velit sapien pulvinar justo, ut commodo ante tortor ut risus. Praesent nec mattis mi, id porta purus. Maecenas ultrices ullamcorper tincidunt. Phasellus sit amet nisl imperdiet, interdum urna nec, mattis arcu.
+      </p>
+    </div>
+  </div>
+
+<br>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+     <img class="card-img-top" src="https://source.unsplash.com/random"  height="400">
+	 <br>
+    <p class="card-text"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi ligula, iaculis a sapien in, pharetra euismod nunc. Maecenas lobortis augue eu nulla sollicitudin, a aliquam eros porttitor. Nulla facilisi. Fusce vulputate sodales arcu eget accumsan. Nulla facilisi. Ut felis leo, tempor eu enim sit amet, egestas bibendum nibh. Suspendisse semper tempus laoreet. Donec sit amet luctus tellus, ut dapibus nibh. Curabitur pellentesque diam ac nunc cursus, vel molestie arcu viverra.
+
+Fusce varius ante id eros tempus ultrices. Fusce porta orci at fermentum efficitur. Aenean placerat dolor vel lacus volutpat convallis. Donec varius vel lectus et mollis. Etiam faucibus malesuada faucibus. Mauris condimentum mauris vitae libero viverra tempus. Pellentesque scelerisque, metus id tempor pulvinar, ante nulla placerat leo, quis imperdiet tortor nulla quis libero. Aenean in neque a magna fermentum sodales. Ut molestie est turpis. Curabitur et pharetra justo. Nunc id orci eu mauris fermentum blandit ac at dui. Vivamus molestie nisl sed nisl sollicitudin, tristique sollicitudin turpis porta. Suspendisse a imperdiet lacus, id dignissim lectus. Donec a urna sapien.
+
+In interdum tempus placerat. Mauris ullamcorper sagittis odio sit amet scelerisque. Aenean mollis felis mi, in vestibulum leo convallis ut. 
+	</p>
+	<p><h3>Nullam ultrices bibendum mauris. In malesuada tempor malesuada.</h3> Praesent vitae tristique ex, consequat aliquam nunc. Aenean commodo a orci in gravida. Aliquam euismod, eros at sagittis convallis, erat odio ornare eros, quis scelerisque ligula magna non ligula. Sed ullamcorper dapibus fringilla. Phasellus pharetra maximus arcu, id sagittis odio ultricies eget. Sed nec velit sed magna pellentesque tincidunt. Nunc vel mattis lectus, at vehicula leo. Maecenas purus quam, pulvinar quis tempus sit amet, sodales et neque. Sed lacinia ex eu odio porttitor auctor. Aenean dignissim purus at felis vehicula, at laoreet mauris egestas.
+
+Integer iaculis tincidunt maximus. Phasellus ut pretium dolor, id feugiat lacus. Aliquam rhoncus leo sit amet feugiat faucibus. Nulla facilisi. Curabitur nec lorem non elit volutpat semper vel eget turpis. Quisque vulputate turpis id mauris ullamcorper fermentum. Praesent sed ultricies arcu. Sed facilisis tincidunt mi. Nulla vitae nulla suscipit tellus porta dictum.
+
+Donec ut nisl quis magna sollicitudin vehicula. Aenean faucibus massa enim, et tincidunt augue pulvinar in. Morbi quis massa malesuada, fringilla elit ac, elementum massa. Quisque bibendum hendrerit tincidunt. Cras eget risus in tellus rutrum euismod at sed mauris. Curabitur elementum, ligula sed laoreet venenatis, eros turpis consequat magna, ut tristique est felis quis lectus. Proin sit amet pharetra enim. Sed id ultrices turpis.
+	</p>
+    </div>
+	<div class="col-4">
+	<section class="bg-primary text-left p-3 mt-1">
+		<div class="container p-3">
+			<h3 style="color:white";>Subscribe for <br> Newsletter</h3>
+			<p style="color:white";> isl quis magna sollicitudin vehicula.</p>
+			<form action="#" method="Post">
+				<input type="text"class="form-control flex-fill" name="text" placeholder="Enter Your Email Id">
+				<br>
+				<button type="button" class="btn btn-warning btn-block">Subscribe</button>
+			</form>
+		</div>
+	</section>
+	<br>
+	<div class="card ">
+  <div class="card-header bg-primary text-left">
+    Achives
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href="404.html">2022 </a></li>
+    <li class="list-group-item"><a href="404.html">2021 </a></li>
+    <li class="list-group-item"><a href="404.html">2020 </a></li>
+  </ul>
+</div>
+<br>
+
+<div class="card ">
+  <div class="card-header bg-primary text-left">
+    Recent Posts
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href="404.html">Post1 </a></li>
+    <li class="list-group-item"><a href="404.html">Post2 </a></li>
+    <li class="list-group-item"><a href="404.html">Post3 </a></li>
+  </ul>
+</div>
+
+	</div>
+    </div>
+	</div>
+<br>
+
+
+
+
+<footer class= 'text-white text-center text-lg-start'>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 1.0);">
+    © 2020 Copyright All rights reserved
+ </div>
+</footer>
+
+
+</body>
+</html>
